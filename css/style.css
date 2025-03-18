@@ -104,6 +104,7 @@ nav ul a:hover {
 #hero {
   position: relative;
   margin-top: 7rem;
+  overflow: hidden;
 }
 .hero-area {
   display: flex;
@@ -211,3 +212,217 @@ nav ul a:hover {
   left: 45rem;
 }
 /* hero end */
+/* Teacher start */
+#teacher {
+  padding: 4rem 0;
+  margin-top: 10rem;
+  position: relative;
+}
+
+.teacher-area {
+  display: flex;
+  gap: 4rem;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.shape-teacher {
+  position: absolute;
+  top: -10rem;
+  right: 0;
+}
+
+.shape-vector {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.teacher-area > * {
+  flex: 1;
+}
+
+.greetings {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem 1rem;
+  box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.4);
+  border-radius: 1rem;
+  max-width: 50%;
+  position: relative;
+  left: 10rem;
+}
+
+.greetings .icon {
+  padding: 1rem;
+  background-color: #3c50e0;
+  border-radius: 0.5rem;
+}
+
+.greetings i {
+  font-size: 1.8rem;
+  padding: 0.5rem;
+  color: #3c50e0;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.grettings-msg h2 {
+  font-size: 1.4rem;
+}
+
+.grettings-msg p {
+  font-size: 1.2rem;
+}
+
+.class-card {
+  padding: 2rem;
+  box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.5);
+  border-radius: 2rem;
+  max-width: 35rem;
+  padding-bottom: 5rem;
+  margin-top: 4rem;
+  position: relative;
+  background: white;
+}
+
+.class-card img {
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.class-card h4 {
+  font-size: 1.2rem;
+  color: #ff733b;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.class-card h2 {
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #04004d;
+  font-weight: 600;
+}
+.class-card p {
+  font-size: 1.4rem;
+  color: #898e92;
+  padding: 2rem 0;
+}
+.join {
+  display: flex;
+  justify-content: space-between;
+}
+.join time {
+  color: #898e92;
+  font-size: 1.4rem;
+}
+
+.join a {
+  padding: 0.2rem 1rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  background-color: #367166;
+  color: white;
+  border-radius: 0.3rem;
+}
+
+.teacher-wrapper {
+  position: relative;
+}
+
+.statistics {
+  padding: 3rem;
+  min-height: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 30rem;
+  box-shadow: 0.1rem 0.1rem 0.51rem rgba(0, 0, 0, 0.4);
+  border-radius: 1rem;
+  position: absolute;
+  top: -2rem;
+  right: 0;
+  z-index: 100;
+  background: white;
+  padding-bottom: 8rem;
+}
+.statistics h2 {
+  font-size: 1.4rem;
+  color: #04004d;
+  text-align: center;
+}
+
+.chart {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.sector {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.sector > * {
+  flex: 1;
+}
+
+.sector .left {
+  background-color: #fff3d4;
+  padding: 1rem;
+  color: #fab408;
+}
+
+.sector .right {
+  background-color: #dcffee;
+  padding: 1rem;
+}
+
+.sector h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.left h2,
+.left p {
+  color: #fab408;
+}
+
+.right h2,
+.right p {
+  color: #19bf6f;
+}
+
+.sector p {
+  font-size: 1.2rem;
+}
+
+.shape-statistics {
+  position: absolute;
+  bottom: 7rem;
+  right: 8rem;
+}
+
+.right-container {
+  padding: 0 2rem;
+}
+
+.right-container h2 {
+  font-size: 5rem;
+  line-height: 6.2rem;
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+.right-container p {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  padding-bottom: 5rem;
+}
+
+.right-container a {
+  font-size: 1.6rem;
+  color: #336c61;
+}
+
+/* Teacher end */
